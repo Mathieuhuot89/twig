@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ index }}
+{% endblock %}
+
+{% block body %}
+	{% include "partials/carousel.html.twig" %}
+	<h1 class="mb-3 mt-3" style="text-align: center">Langages & Framework</h1>
+
+	<div class="card">
+		<div class="row">
+			<div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/html.png" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'html & css' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/js.jpg" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'js' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/node.png" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'node js' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/php.jpg" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'php' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+            <div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/react.png" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'react' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+            <div class="col-4">
+				<div class="card-body">
+					
+					<img src="assets/images/symfony.png" class="img-fluid" alt="..." style="width: 350px">
+                    <h5 class="card-title">{{ 'symfony' | upper }}</h5>
+					<p class="card-text col-8">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">En savoir plus</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
